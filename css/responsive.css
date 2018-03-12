@@ -1,0 +1,156 @@
+@media (min-width:320px) and (max-width:767px){
+	#container{ margin-top: 0;}
+	.header{ height: 75px; position: absolute; width: 100%; left: 0; top: 0; z-index: 999999;}
+	.btnMobileNav{ display: block; right: 65px;}
+	.logo{ width: 40px; left: 10px; top: 10px; transform:none; -moz-transform:none; -webkit-transform:none;}
+	.homeHeaderContent{ padding: 100px 0 0;}
+	.homeHeaderContent h1{ font-size: 30px; line-height: 50px;}
+	.headerBanner{ height: 300px; padding: 0 15px;}
+	.topNav{ width: 100%; position: absolute; left: 0; top: 75px; margin: 0; background: #191c20; z-index: 999999; display: none;}
+	.topNav > li{ display: block; margin: 0 0 1px 0; background: #222529;}
+	.topNav > li > a{ padding: 10px 10px 10px 20px;}
+	.topNav>li>a:hover, .topNav>li.active>a{ border:0;}
+	/*#dAbout{ display: none;}
+	#mAbout{ display: block;}*/
+	.topNav > li > a.nav-arrow{ background: url(../images/nav-arrow.png) 95% center no-repeat;}
+	.topNav > li > a:hover{ border:0;}
+	.topNav > li > ul{ width: 100%; position: relative; top: auto; display: block;}
+	.topNav > li > ul > li > a{ padding: 10px 10px 10px 40px;}
+	
+	.btnProfile{ display: block; top: 20px;}
+	.loginNav{ width: 200px; right: 10px; top: 56px; background: #9eb5ce; position: absolute; margin: 0; z-index: 999; display: none;}
+	.loginNav > li{ display: block; color: #38689c; margin: 0;}
+	.loginNav > li a{ color: #38689c; border-left: 0; border-bottom: 1px #91a9c3 solid; padding: 10px;}
+
+	.heighlight{ width: 100%; height: 50px;}
+	.tabListOuter{ width: 100%; overflow: visible; float: left;}
+	.tabList li{ max-width: 100%; padding: 0 15px 15px 15px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; background: none;}
+	.heighlight h2{ font-size: 16px;}
+	.heighlightThumbInner{ padding: 15px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+	.heighlightList li{ max-width: 100%; margin: 0 0 15px 0;}
+	.arrow{ display: none;}
+	.footNav{ display: none;}
+	.footerInner{ padding: 15px;}
+	.footLeft{ width: 100%; text-align: center; margin: 0 0 15px 0;}
+	.footRight{ float: none; margin: 0 auto;}
+	.address{ overflow: visible;}
+
+	/***
+	Aboutus
+	***/
+	.wrapper{ padding: 75px 0 0 0;}
+	.aboutWrapper{ padding: 15px;}
+	.heading{ font-size: 36px; line-height: 38px; padding: 10px 0 20px 0;}
+	.aboutWrapper p{ font-size: 14px; line-height: 22px;}
+	.aboutWrapper h3{ font-size: 16px; line-height: 22px;}
+	.aboutWrapper h2{ padding: 30px 0 20px 0; font-size: 36px;}
+	.chapterList li{ width: 100%; padding: 0; margin: 0 0 30px 0; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+	.chapterList li span.chapterThumb{ width: 120px; margin: 0 auto;}
+	.chapterList li span.chapterName{ font-size: 22px;}
+	.chamList{ padding: 20px 15px;}
+	.bulletedList{ padding: 0 0 20px 0;}
+	.chamList li, .bulletedList li{ font-size: 14px; line-height: 22px; margin: 0 0 15px 0; background-position: 0 7px;}
+	.btnDownload{ font-size: 14px; padding: 10px 20px;}
+	.aboutWrapper h4{ font-size: 18px; line-height: 26px;}
+	.logoList li{ margin: 0 10px 20px 10px;}
+	.chamLeft{ width: 100%; padding: 0;}
+	.chamRight{ display: none;}
+
+	/***
+	Overview
+	***/
+	.contactWrapper{ padding: 15px;}
+	.historyContent{ padding: 0;}
+	.historyContent p{ font-size: 14px; line-height: 22px;}
+	.boardMemberList li{ display: block; width: 100%; margin: 0 0 30px 0;}
+	.presidentRow{ padding: 10px;}
+	.presidentLeft{ font-size: 18px; line-height: 22px;}
+	.presidentRight{ font-size: 20px; line-height: 24px;}
+
+	/***
+	Contactus
+	***/
+	.contactList{ padding: 0;}
+	.contactList li{ padding: 0; min-height: auto; padding: 20px 0;}
+	.contactList li:nth-child(1){ width: 100%; border-right: 0; border-bottom: 1px #e6e6e7 solid;}
+	.contactList li:nth-child(2){ width: 100%; border-right: 0; border-bottom: 1px #e6e6e7 solid;}
+	.contactList li:nth-child(3){ width: 100%; border-right: 0;}
+	.contactList li p{ font-size: 14px; line-height: 22px;}
+
+	/***
+	Member
+	***/
+	.memberList li{ width: 100%; padding: 0; margin: 0 0 40px 0;}
+	
+	/***
+	Events
+	***/
+	.eventBox{ max-width: 100%; margin: 0 0 15px 0;}
+	.jobsLeft{ width: 100%; float: left; margin: 0 0 20px 0;}
+	.jobsRight{ width: 100%; float: left; overflow: visible;}
+	.newsRow{ padding: 10px;}
+	.newsRow h3{ font-size: 18px; line-height: 22px;}
+	.jobsRow h3{ font-size: 18px; line-height: 22px;}
+	.postedLeft{ font-size: 14px; line-height: 18px;}
+	.postedRight{ float: left; width: 100%;}
+	.postedRight ul li{ margin: 5px 20px 0 0; font-size: 12px;}
+	.btnReadArticle{ margin:10px 0 0 0;}
+	
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+	#container{ margin-top: 0;}
+	.logo{ width: 55px; left: 20px; transform:none; -moz-transform:none; -webkit-transform:none;}
+	.topNav{ float: right; margin: 43px 65px 0 30px;}
+	.btnProfile{ display: block;}
+	.loginNav{ width: 200px; right: 10px; top: 71px; background: #9eb5ce; position: absolute; margin: 0; z-index: 999; display: none;}
+	.loginNav > li{ display: block; color: #38689c; margin: 0;}
+	.loginNav > li a{ color: #38689c; border-left: 0; border-bottom: 1px #91a9c3 solid; padding: 10px;}
+
+	.heighlight{ width: 150px;}
+	.heighlight h2{ font-size: 16px;}
+	.tabList li{ max-width: 32%; padding: 0 3%; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+	.heighlightList li{ max-width: 300px;}
+	.footNav{ display: none;}
+
+	/***
+	Aboutus
+	***/
+	.aboutWrapper{ padding: 30px 30px 60px 30px;}
+	.aboutWrapper h2{ padding: 50px 0 40px 0;}
+	.chapterList li{ max-width: 30%; padding: 0 20px; margin: 0; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+	.logoList li{ max-width: 150px; margin: 0 10px;}
+
+	/***
+	Overview
+	***/
+	.contactWrapper{ padding: 30px 30px 60px 30px;}
+	.boardMemberList li{ margin: 0 45px 45px 0;}
+
+	/***
+	Contactus
+	***/
+	.contactList{ padding: 0;}
+	.contactList li:nth-child(1){ width: 100%; border-right: 0; border-bottom: 1px #e6e6e7 solid;}
+	.contactList li:nth-child(2){ width: 50%;}
+	.contactList li:nth-child(3){ width: 50%;}
+
+	/***
+	Member
+	***/
+	.memberList li{ width: 32%; padding: 0 15px;}
+	
+	/***
+	Events
+	***/
+	.eventBox{ max-width: 298px; margin: 0 10px 20px 10px;}
+	.jobsLeft{ width: 250px;}
+	.postedRight{ float: left;}
+	.postedRight ul li{ margin: 10px 20px 0 0;}
+}
+
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+	.postedRight{ float: right;}
+	.postedRight ul li{ margin: 0 0 0 20px;}
+}

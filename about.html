@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HAMA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="container">
+		<div class="containerInner clearfix">
+			<header class="header clearfix">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo-main.png" alt=""></a>
+				</div>
+				<a href="javascript:void(0);" class="btnMobileNav"><img src="images/btnMobileNav.png" alt=""></a>
+				<a href="javascript:void(0);" class="btnProfile"><img src="images/profile.png" alt=""></a>
+				<ul class="topNav">
+					<li class="active">
+						<a id="dAbout" href="about.html">About</a>
+						<a id="mAbout" class="nav-arrow" href="javascript:void(0);">About</a>
+						<ul>
+							<li class="active" id="aboutHama"><a href="about.html">About HAMA</a></li>
+							<li><a href="overview.html">HAMA Overview</a></li>
+							<li><a href="history.html">History of HAMA</a></li>
+							<li><a href="board-of-directors.html">Board of Directors</a></li>
+							<li><a href="past-presidents.html">Past Presidents</a></li>
+							<li><a href="become-member.html">Become a member</a></li>
+							<li><a href="contactus.html">Contact us</a></li>
+						</ul>
+					</li>
+					<li><a href="cham.html">CHAM</a></li>
+					<li><a href="member.html">Members</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li>
+						<a href="javascript:void(0);">News</a>
+						<ul>
+							<li><a href="industry-news.html">Industry News</a></li>
+							<li><a href="hama-speaks.html">HAMA Speaks</a></li>
+							<li><a href="hama-in-the-news.html">HAMA In the News</a></li>
+						</ul>
+					</li>
+					<li><a href="jobs.html">Jobs</a></li>
+					<li><a href="affiliates.html">Affiliates</a></li>
+				</ul>
+				<ul class="loginNav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Member Login</a></li>
+					<li><a href="become-member.html">Become a Member</a></li>
+				</ul>
+			</header>
+			<div class="wrapper clearfix">
+				<div class="aboutWrapper clearfix">
+					<h1 class="heading">About HAMA</h1>
+					<h3>The Hospitality Asset Managers Association (HAMA) is the pre-eminent organization of professionals responsible for proactively increasing asset values on behalf of hotel owners worldwide.</h3>
+					<p>Our mission is the enhancement of hospitality asset managers through education, advancement of the profession, and serving as the collective industry voice of hospitality ownership.</p>
+					<p>HAMA is a networking organization of approximately 200 professionals representing an estimated 3,200 hotels with over 760,000 rooms. Members are involved in asset management, acquisition, financing and disposition of hotels and resorts, and are directly responsible for making decisions concerning capital investments, renovations, asset repositioning, operational policies and franchise selections.</p>
+					<p>HAMA's mission is to provide members with year-round forums, industry communications and networking to fulfill the purpose of the organization. Our strong global network of hospitality professionals provides members with unparalleled access to key industry leaders and decision makers. HAMA promotes ethical standards of conduct and mutual respect among its members and those in the hospitality industry.</p>
+					<p>In 2010 HAMA expanded its global presence through establishing affiliate relationships with Japan and Singapore. By growing outside of the United States, HAMA members now have access to more global resources enhancing our capabilities as we work to meet the needs of hospitality owners worldwide.</p>
+					<h2>Chapters</h2>
+					<ul class="chapterList clearfix">
+						<li>
+							<span class="chapterThumb"><img src="images/chapter1.png" alt=""></span>
+							<span class="chapterName">European Chapter</span>
+						</li>
+						<li>
+							<span class="chapterThumb"><img src="images/chapter2.png" alt=""></span>
+							<span class="chapterName">Japan Chapter</span>
+						</li>
+						<li>
+							<span class="chapterThumb"><img src="images/chapter3.png" alt=""></span>
+							<span class="chapterName">Singapore Chapter</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clr"></div>
+		<div class="push"></div>
+	</div>
+	<footer class="footer clearfix">
+		<div class="footerInner clearfix">
+			<div class="footLeft">
+				<ul class="footNav clearfix">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="about.html">About</a></li>
+					<li><a href="cham.html">CHAM</a></li>
+					<li><a href="member.html">Members</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="jobs.html">Jobs</a></li>
+					<li><a href="affiliates.html">Affiliates</a></li>
+				</ul>
+				<p>Copyright &copy; 2015 Hotel Asset Managers Association (HAMA)</p>
+				<p>All rights reserved | support@hamagroup.org</p>
+			</div>
+			<div class="footRight">
+				<div class="fooLogo"><img src="images/footer-logo.png" alt=""></div>
+				<div class="address">
+					<p>P.O. Box 381<br>
+					N. Scituate, MA 02060<br>
+					(781) 544-7330</p>
+					<a href="#">Email</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/jquery.hama.js"></script>
+	<script>
+		$(function(){
+			HAMA.aboutUs.init();
+		});
+	</script>
+</body>
+</html>
